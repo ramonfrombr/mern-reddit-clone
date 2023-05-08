@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import SubForm from './SubForm';
+import React, { useState } from "react";
+import SubForm from "./SubForm";
 
-import { DialogTitle } from './CustomDialogTitle';
+import { DialogTitle } from "./CustomDialogTitle";
 import {
   Dialog,
   DialogContent,
   Button,
   MenuItem,
   ListItemIcon,
-} from '@material-ui/core';
-import { useDialogStyles } from '../styles/muiStyles';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+} from "@material-ui/core";
+import { useDialogStyles } from "../styles/muiStyles";
+import AddCircleIcon from "@material-ui/icons/AddCircle";
 
 const SubFormModal = ({ type, handleCloseMenu }) => {
   const classes = useDialogStyles();
@@ -31,7 +31,7 @@ const SubFormModal = ({ type, handleCloseMenu }) => {
 
   return (
     <div>
-      {type !== 'menu' ? (
+      {type !== "menu" ? (
         <Button
           color="primary"
           variant="contained"
@@ -41,13 +41,13 @@ const SubFormModal = ({ type, handleCloseMenu }) => {
           size="large"
           startIcon={<AddCircleIcon />}
         >
-          Create New Subreddish
+          Create New Subreddister
         </Button>
       ) : (
         <MenuItem onClick={handleOpenMenu}>
           <ListItemIcon>
             <AddCircleIcon style={{ marginRight: 7 }} />
-            Create Subreddish
+            Create Subreddister
           </ListItemIcon>
         </MenuItem>
       )}
@@ -58,7 +58,9 @@ const SubFormModal = ({ type, handleCloseMenu }) => {
         classes={{ paper: classes.dialogWrapper }}
         fullWidth
       >
-        <DialogTitle onClose={handleClose}>Create a new subreddish</DialogTitle>
+        <DialogTitle onClose={handleClose}>
+          Create a new subreddister
+        </DialogTitle>
         <DialogContent>
           <SubForm />
         </DialogContent>
