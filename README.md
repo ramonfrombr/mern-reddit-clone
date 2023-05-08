@@ -1,4 +1,4 @@
-# Reddister- A Reddit Clone - MERN
+# Reddister - A Reddit Clone - MERN
 
 [Reddit](https://www.reddit.com) clone (a social media site) made w/ MERN stack & Redux.
 
@@ -48,6 +48,16 @@
 - Loading spinners for relevant fetching processes
 - Dark mode toggle w/ local storage save
 - Responsive UI for all screens
+
+## Screenshots
+
+![Desktop1](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister01.png)
+![Desktop2](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister02.png)
+![Desktop3](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister03.png)
+![Desktop4](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister04.png)
+![Desktop5](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister05.png)
+![Desktop6](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister06.png)
+![Desktop7](https://github.com/ramonfrombr/mern-reddit-clone/blob/main/screenshots/reddister07.png)
 
 ## Usage
 
