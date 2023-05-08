@@ -1,4 +1,4 @@
-# Reddish - A Reddit Clone - MERN
+# Reddister- A Reddit Clone - MERN
 
 [Reddit](https://www.reddit.com) clone (a social media site) made w/ MERN stack & Redux.
 
